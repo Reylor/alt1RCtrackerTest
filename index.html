@@ -3,11 +3,12 @@ body{margin:0;padding:8px;background:#1b1a22;color:#e8e6f0;font:13px system-ui,s
 h1{font-size:15px;margin:0 0 6px}#st,#known,#cal{font-size:11px;color:#9a97ad;margin:4px 0}
 table{width:100%;border-collapse:collapse;margin:6px 0}td,th{padding:2px 4px;text-align:right;border-bottom:1px solid #2d2b38}td:first-child,th:first-child{text-align:left}
 button,input{background:#2d2b3a;color:#e8e6f0;border:1px solid #444;border-radius:4px;padding:3px 6px;font-size:12px}input{width:40px}
-#tot{font-weight:600;margin:4px 0}</style></head><body>
+#tot{font-weight:600;margin:4px 0}#unk div{display:flex;align-items:center;gap:6px;margin:3px 0}#unk img{width:32px;height:32px;background:#000;border-radius:4px}select{background:#2d2b3a;color:#e8e6f0;border:1px solid #444;border-radius:4px;padding:3px}</style></head><body>
 <h1>Rune Tracker</h1><div id="st"></div><div id="tot"></div>
 <table><thead><tr><th>Rune</th><th>Session</th><th>Rate</th><th>All-time</th></tr></thead><tbody id="rows"></tbody></table>
+<div id="unkh" style="display:none;margin:8px 0 2px;font-size:12px">New icons: what are these? Counts are held until you pick.</div><div id="unk"></div>
 <div id="known"></div><hr style="border-color:#2d2b38">
 <div>Backpack: <input id="cols" type="number" min="1"> cols × <input id="rws" type="number" min="1"> rows</div>
-<p><button id="c1">Set backpack position</button> <button id="c2">Set chat area</button> <button id="rs">Reset session</button></p>
+<p><button id="c1">Set backpack position</button> <button id="rs">Reset session</button></p>
 <div id="cal"></div><div id="dbg" style="font-size:10px;color:#7d7a90;word-break:break-all"></div><p><button id="fi">Forget icons</button> <button id="ra">Clear all-time</button></p>
 <script src="app.js"></script></body></html>
