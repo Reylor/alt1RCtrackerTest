@@ -1,0 +1,1 @@
+{"appName":"Rune Tracker","description":"Tracks crafted runes by reading the backpack and chat","appUrl":"./index.html","configUrl":"./appconfig.json","iconUrl":"./icon.png","defaultWidth":340,"defaultHeight":480,"minWidth":300,"minHeight":300,"permissions":"pixel"}
